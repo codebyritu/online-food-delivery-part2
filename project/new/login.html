@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <link rel="stylesheet" href="form.css">
+
+</head>
+<body style="background: url('../images/login-background-image.jpg');">
+
+    <div class="alert-box">
+        <p class="alert">msg</p>
+    </div>
+
+    <form action="validate.php" method="post" class="form">
+        <h1 class="heading">login</h1>
+        <input type="mobile" name="mobile" placeholder="mobile" autocomplete="off" class="email" required>
+        <input type="password" name="password" placeholder="password" autocomplete="off" class="password" required>
+        
+        <button type="submit" name="login" class="submit-btn">log in</button>
+        <a href="register.html" class="link">don't have an account? Register one</a>
+        
+    </div>
+
+    <script src="form.js"></script>
+    
+</body>
+</html>
